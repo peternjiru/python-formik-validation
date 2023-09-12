@@ -63,7 +63,7 @@ export const SignupForm = () => {
           onChange={formik.handleChange}
           value={formik.values.email}
         />
-        <p style={{ color: "red" }}> {formik.errors.email}</p>
+        <p style={{ color: "orange" }}> {formik.errors.email}</p>
         <label htmlFor="name">Name</label>
         <br />
 
